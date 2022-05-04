@@ -1,0 +1,6 @@
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.com
+
+Resetar usuário github no windows
+executar o seguinte comando no terminal do Windows: 
+cmdkey /delete:LegacyGeneric:target=git:https://github.com
